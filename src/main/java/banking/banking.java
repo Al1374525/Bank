@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class Bank{
+public class banking{
     public static void main(String[] args){
       //we are checking if this scanner object is functional.
         Scanner output = new Scanner("This class is functional");
