@@ -4,11 +4,11 @@ import java.io.*;
 import java.util.*;
 
 
-public class banking{
+ public class CityBank{
     public static void main(String[] args){
       //we are checking if this scanner object is functional.
-        Scanner output = new Scanner("This class is functional");
-        System.out.println(output);
+        System.out.println("Hello World");
+        
 
     }
 }
