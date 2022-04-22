@@ -5,9 +5,15 @@ import java.util.*;
 
 
  public class CityBank{
-    public static void main(String[] args){
+   //this wil be where the instance variables will be
+
+
+   
+    public static void main(String[] args) throws Exception{
       //we are checking if this scanner object is functional.
-        System.out.println("Hello World");
+        System.out.println("Welcome to City Bank!");
+        CityBank banking = new CityBank();
+       
         
 
     }
