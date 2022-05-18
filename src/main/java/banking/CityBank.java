@@ -12,9 +12,10 @@ import java.util.*;
     public static void main(String[] args) throws Exception{
       //we are checking if this scanner object is functional.
         System.out.println("Welcome to City Bank!");
-        CityBank banking = new CityBank();
+        Banking banking = new Banking();
+        banking.initiate();
        
-        
+  
 
     }
 }

@@ -20,8 +20,23 @@ public class Login {
         password = scanner.nextInt();
     }
 
-    public void verify(){
-        
+    public void verify() throws invalidTransaction{
+        if(accountNum == realAccountNumber && password == realPassWord){
+            System.out.println("Login was successful");
+            Banking banking = new Banking();
+            System.out.println("  ");
+            System.out.println("Your balance is " + banking.getBalance());
+            System.out.println(" ");
+            Menu menu = new Menu();
+            menu.showMenu();
+            //we are going to initiate menu.showMenu to get the user back to the  menu
+        }
+        else{
+            System.out.println("Login failed: "); 
+            invalidTransaction loginFailed = new invalidTransaction("Incorrect login credentials");
+             System.out.println(loginFailed.getMessage());
+             throw loginFailed;
+        }
     }
     
 }
