@@ -12,8 +12,8 @@ import java.util.*;
     public static void main(String[] args) throws Exception{
       //we are checking if this scanner object is functional.
         System.out.println("Welcome to City Bank!");
-        Banking banking = new Banking();
-        banking.initiate();
+        Banking  b = new Banking();
+        b.initiate();
        
   
 
